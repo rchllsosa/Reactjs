@@ -10,7 +10,7 @@ function App() {
   } 
   return (
     <div className="App">
-        <h1>My Simple Phonebook</h1>
+        <h1>Simple Phonebook</h1>
         <EntryForm addEntry={addEntry} />
         <DislayEntries entries={entries}/>
         <DeleteEntry delEntry={delEntry}/>
